@@ -5,6 +5,8 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  z-index: 1;
+  background-color: cornflowerblue;
 }
 
 #minha_foto {
@@ -12,17 +14,17 @@ body {
   width: 200px;
   height: 150px;
   margin: auto;
-  padding: 15px;
-  top: 27px;
-  border: 1px solid black;
+  padding: 13px;
+  top: 37px;
+  border: 2px solid black;
 }
 
 ol {
-  top: 10px;
+  top: 20px;
   position: relative;
 }
 
 ul {
-  top: 10px;
+  top: 20px;
   position: relative;
 }
