@@ -15,16 +15,16 @@ body {
   height: 150px;
   margin: auto;
   padding: 13px;
-  top: 37px;
+  top: 70px;
   border: 2px solid black;
 }
 
 ol {
-  top: 20px;
+  top: 60px;
   position: relative;
 }
 
 ul {
-  top: 20px;
+  top: 60px;
   position: relative;
 }
