@@ -8,6 +8,21 @@ body {
 }
 
 #minha_foto {
+  position: relative;
   width: 200px;
   height: 150px;
+  margin: auto;
+  padding: 15px;
+  top: 27px;
+  border: 1px solid black;
+}
+
+ol {
+  top: 10px;
+  position: relative;
+}
+
+ul {
+  top: 10px;
+  position: relative;
 }
