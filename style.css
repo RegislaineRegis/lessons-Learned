@@ -35,21 +35,40 @@ main {
 ol {
   top: 60px;
   position: relative;
+  border: 2px solid rgb(90, 30, 255);
+  width: 600px;
 }
 
 ul {
   top: 60px;
   position: relative;
+  border: 2px solid rgb(90, 30, 255);
+  width: 600px;
+}
+
+section {
+  position: relative;
+  top: 30px;
 }
 
 .lado-esquerdo {
+  border: 2px solid rgb(90, 30, 255);
   float: left;
-  max-width: 40%;
+  max-width: 800px;
 }
 
 .lado-direito {
+  border: 2px solid rgb(90, 30, 255);
   float: right;
-  max-width: 40%;
+  max-width: 520px;
+}
+
+table {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  width: 600px;
+  height: 70px;
 }
 
 #rodape {
