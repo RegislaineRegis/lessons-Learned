@@ -1,12 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  color: rgb(90, 30, 255);
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
   z-index: 1;
-  background-color: cornflowerblue;
+  background-color: burlywood;
+  border: 2px solid rgb(90, 30, 255);
 }
 
 #minha_foto {
@@ -14,9 +17,9 @@ body {
   width: 200px;
   height: 150px;
   margin: auto;
-  padding: 13px;
+  padding: 15px;
   top: 70px;
-  border: 2px solid black;
+  border: 2px solid rgb(90, 30, 255);
 }
 
 ol {
