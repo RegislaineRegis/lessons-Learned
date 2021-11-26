@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   color: rgb(90, 30, 255);
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  line-height: 20px;
 }
 
 #cabecalho {
