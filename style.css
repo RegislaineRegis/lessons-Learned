@@ -28,6 +28,8 @@ body {
 main {
   position: relative;
   display: inline;
+  padding: 2px;
+  margin: auto;
 }
 
 ol {
