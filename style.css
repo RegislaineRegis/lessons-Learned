@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
-  color: rgb(90, 30, 255);
+  color: rgb(253, 251, 251);
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   line-height: 20px;
 }
@@ -11,19 +11,19 @@ body {
   top: 0;
   position: fixed;
   z-index: 1;
-  background-color: burlywood;
-  border: 2px solid rgb(90, 30, 255);
+  background-color: rgb(37, 70, 110, 36);
+  border: 2px solid rgb(95, 88, 232, 91);
   width: 100%;
   text-align: center;
 }
 
 #minha_foto {
   position: relative;
-  width: 300px;
+  width: 290px;
   height: auto;
   left: 845px;
   top: 90px;
-  border: 2px solid rgb(90, 30, 255);
+  border: 2px solid rgb(37, 36, 92, 36);
 }
 
 main {
@@ -35,17 +35,19 @@ main {
 }
 
 ol {
+  background-color: rgb(37, 70, 110, 36);
   top: 60px;
   position: relative;
-  border: 2px solid rgb(90, 30, 255);
-  width: 600px;
+  border: 2px solid rgb(95, 88, 232, 91);
+  width: 640px;
 }
 
 ul {
+  background-color: rgb(37, 70, 110, 36);
   top: 50px;
   position: relative;
-  border: 2px solid rgb(90, 30, 255);
-  width: 600px;
+  border: 2px solid rgb(95, 88, 232, 91);
+  width: 640px;
 }
 
 section {
@@ -55,40 +57,48 @@ section {
 }
 
 .lado-esquerdo {
-  border: 2px solid rgb(90, 30, 255);
+  background-color: rgb(37, 70, 110, 36);
+  border: 2px solid rgb(95, 88, 232, 91);
   float: left;
   max-width: 800px;
   margin-right: 5px;
+  height: 115px;
 }
 
 .lado-direito {
-  border: 2px solid rgb(90, 30, 255);
+  background-color: rgb(37, 70, 110, 36);
+  border: 2px solid rgb(95, 88, 232, 91);
   float: right;
   max-width: 520px;
 }
 
 table {
+  background-color: rgb(37, 70, 110, 36);
   position: absolute;
-  top: 350px;
+  top: 324px;
   left: 700px;
-  width: 600px;
+  width: 640px;
   line-height: 30px;
-  border: 2px solid rgb(90, 30, 255);
+  border: 2px solid rgb(95, 88, 232, 91);
   padding: 5px;
+  text-align: center;
 }
 
 caption {
+  color: rgb(37, 36, 92, 36);
   font-size: 20px;
-  font-weight: bold;
 }
 
 #rodape {
   position: fixed;
   width: 100%;
   left: 0;
-  background-color: burlywood;
+  background-color: rgb(37, 70, 110, 36);
   bottom: 0;
   clear: both;
-  border: 2px solid rgb(90, 30, 255);
+  border: 2px solid rgb(95, 88, 232, 91);
   text-align: center;
+}
+
+a {  color: rgb(253, 251, 251);
 }
