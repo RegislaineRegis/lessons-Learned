@@ -19,11 +19,10 @@ body {
 
 #minha_foto {
   position: relative;
-  width: 200px;
-  height: 150px;
-  margin: auto;
-  padding: 15px;
+  width: 366px;
+  height: auto;
   top: 70px;
+  left: 500px;
 }
 
 ol {
