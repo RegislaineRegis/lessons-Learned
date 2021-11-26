@@ -73,6 +73,7 @@ ul {
 }
 
 section {
+  text-indent: 2rem;
   display: flex;
   position: relative;
   top: 280px;
