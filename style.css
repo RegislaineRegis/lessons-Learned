@@ -2,14 +2,18 @@ body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
   color: rgb(90, 30, 255);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
 
 #cabecalho {
+  left: 0;
   top: 0;
   position: fixed;
   z-index: 1;
   background-color: burlywood;
   border: 2px solid rgb(90, 30, 255);
+  width: 100%;
+  text-align: center;
 }
 
 #minha_foto {
@@ -19,7 +23,6 @@ body {
   margin: auto;
   padding: 15px;
   top: 70px;
-  border: 2px solid rgb(90, 30, 255);
 }
 
 ol {
@@ -32,7 +35,6 @@ ul {
   position: relative;
 }
 
-a {
-  position: relative;
-  top: 10px;
+#rodape {
+  bottom: 0;
 }
