@@ -16,18 +16,27 @@ body {
   width: 100%;
   text-align: center;
   height: 70px;
+
 }
 
 .buttons {
   text-decoration: none;
   display: inline;
-  position: justify;
 }
 
 .button {
+  position: relative;
   padding: 7px 50px;
   background-color: rgb(95, 88, 232, 91);
   border-radius: 1.3rem;
+}
+
+.button:hover {
+  background-color: rgb(45, 38, 150, 71);
+  position: relative;
+  padding: 7px 49px;
+  border: 1px solid rgb(95, 88, 232, 91);
+  cursor: pointer;
 }
 
 #minha_foto {
