@@ -15,6 +15,19 @@ body {
   border: 2px solid rgb(95, 88, 232, 91);
   width: 100%;
   text-align: center;
+  height: 70px;
+}
+
+.buttons {
+  text-decoration: none;
+  display: inline;
+  position: justify;
+}
+
+.button {
+  padding: 7px 50px;
+  background-color: rgb(95, 88, 232, 91);
+  border-radius: 1.3rem;
 }
 
 #minha_foto {
@@ -87,6 +100,10 @@ table {
 caption {
   color: rgb(37, 36, 92, 36);
   font-size: 20px;
+}
+
+thead {
+  text-decoration: underline;
 }
 
 #rodape {
