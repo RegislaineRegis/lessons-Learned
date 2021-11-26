@@ -19,10 +19,15 @@ body {
 
 #minha_foto {
   position: relative;
-  width: 366px;
+  width: 300px;
   height: auto;
   top: 70px;
-  left: 500px;
+  left: 533px;
+}
+
+main {
+  position: relative;
+  display: inline;
 }
 
 ol {
@@ -35,6 +40,23 @@ ul {
   position: relative;
 }
 
+.lado-esquerdo {
+  float: left;
+  max-width: 40%;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 40%;
+}
+
 #rodape {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  background-color: burlywood;
   bottom: 0;
+  clear: both;
+  border: 2px solid rgb(90, 30, 255);
+  text-align: center;
 }
