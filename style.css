@@ -21,15 +21,17 @@ body {
   position: relative;
   width: 300px;
   height: auto;
-  top: 70px;
-  left: 533px;
+  left: 845px;
+  top: 90px;
+  border: 2px solid rgb(90, 30, 255);
 }
 
 main {
-  position: relative;
+  position: absolute;
+  top: 20px;
   display: inline;
   padding: 2px;
-  margin: auto;
+  left: 5px;
 }
 
 ol {
@@ -40,21 +42,23 @@ ol {
 }
 
 ul {
-  top: 60px;
+  top: 50px;
   position: relative;
   border: 2px solid rgb(90, 30, 255);
   width: 600px;
 }
 
 section {
+  display: flex;
   position: relative;
-  top: 30px;
+  top: 280px;
 }
 
 .lado-esquerdo {
   border: 2px solid rgb(90, 30, 255);
   float: left;
   max-width: 800px;
+  margin-right: 5px;
 }
 
 .lado-direito {
@@ -65,12 +69,17 @@ section {
 
 table {
   position: absolute;
-  top: 400px;
+  top: 350px;
   left: 700px;
   width: 600px;
-  line-height: 35px;
+  line-height: 30px;
   border: 2px solid rgb(90, 30, 255);
   padding: 5px;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #rodape {
