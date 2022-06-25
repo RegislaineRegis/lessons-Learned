@@ -11,14 +11,12 @@ Seu contexto principal foi utilizar HTML para construir uma página WEB. Utiliza
 Ele contêm uma série de informações sobre o que aprendi durante a parte de Fundamentos no curso da Trybe.
 
 ---
-
 ## **Técnologias usadas**
 
 Front-end:
 > Desenvolvido usando: **CSS3**, **HTML5**;
 
 ---
-
 ## **Instalação do projeto localmente:**
  
 Para cada um dos passos, haverá um exemplo do comando a ser digitado para fazer o que está sendo pedido, caso tenha dificuldades e o exemplo não seja suficiente, sinta-se a vontade para me contatar em _[bruno.ro7c@gmail.com](bruno.ro7c@gmail.com)_.
@@ -42,7 +40,6 @@ Para cada um dos passos, haverá um exemplo do comando a ser digitado para fazer
 > **Obs**: Para evitar problemas de CORS, utilize a extensão Live Server do VsCode para conseguir carregar todos os assets externos. Abra o arquivo index.html, clique em GoLiveServer localizado na barra inferior do seu VsCode, ou clicando com o o botão direito do seu mouse.
 
 ---
-
 ## **Escopo do Projeto**
 
 Este projeto tem como base os seguintes requisitos:
